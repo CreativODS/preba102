@@ -1,39 +1,69 @@
-# Flowershow Template 🌸
-
-Welcome to the Flowershow Template! This is a ready-to-use template for creating beautiful websites from your markdown content, particularly optimized for Obsidian vaults.
-
-## What is this template?
-
-This template serves as a foundation for:
-- Publishing your Obsidian vault as a website
-- Creating a new markdown-based website from scratch
-- Building documentation sites, blogs, or personal websites
-
-## Getting Started
-
-You can use this template in two main ways:
-
-### 1. Publishing Your Obsidian Vault
-
-If you have an existing Obsidian vault:
-1. Install Obsidian Flowershow plugin
-2. Adjust the configuration
-3. Publish you vault
-
-Your Obsidian links, callouts, and other features will be preserved and rendered beautifully on the web.
-
-### 2. Creating a New Site
-
-If you're starting from scratch:
-1. Use this template as your base
-2. Modify the content as you wish using an editor of your choise (or GitHub UI)
-3. Add your own markdown files
-
-## Learn More
-
-For more information about Flowershow and how to customize this template, visit:
-- [Flowershow Documentation](https://flowershow.app/docs)
-
+---
+title: "Inicio home"
+date: "2025-12-02"
 ---
 
-Happy publishing! 🚀
+<!-- Importamos componentes si los necesitas -->
+import "./styles/home.css"
+
+<!-- Hero full-width con imagen de fondo -->
+<div className="hero">
+  <div className="hero-overlay">
+    <h1 className="hero-title-dela">Tu Título en Dela Gothic One</h1>
+    <p className="hero-subtitle-inter">Subtítulo o tagline en Inter</p>
+  </div>
+</div>
+
+<!-- Sección de columnas: texto + imagen -->
+<section className="columns two-columns">
+  <div className="col-text">
+    <p className="inter">we are collaborative supporting</p>
+    <h2 className="dela">bridge builders</h2>
+    <p className="inter">a nivel interestelar</p>
+  </div>
+  <div className="col-image">
+    <img src="/images/econdmainphoto.png" alt="Descripción foto" />
+  </div>
+</section>
+
+<!-- Espacio vacío / separador -->
+<div className="spacer large"></div>
+
+<!-- Texto centrado con color especial y mezcla de tipografías -->
+<section className="center-text">
+  <p className="inter">HERE IS THE DEAL, WE CAN ONLY ACHIEVE IT,</p>
+  <h2 className="dela highlight">THOGETHER(#F90068)</h2>
+</section>
+
+<!-- Sección con dos columnas: celda izquierda y dos celdas a la derecha -->
+<section className="columns custom-grid">
+  <div className="grid-left">
+    <h3 className="dela">Título celda izquierda — Dela Gothic One</h3>
+    <p className="inter">Cuerpo en Inter</p>
+  </div>
+  <div className="grid-right">
+    <div className="cell">
+      <h3 className="dela">Título celda derecha 1</h3>
+      <p className="inter">Texto celda derecha 1</p>
+    </div>
+    <div className="cell">
+      <h3 className="dela">Título celda derecha 2</h3>
+      <p className="inter">Texto celda derecha 2</p>
+    </div>
+  </div>
+</section>
+
+<!-- Otro espacio vacío / separador -->
+<div className="spacer medium"></div>
+
+<!-- Columna doble: texto + foto otra vez -->
+<section className="columns two-columns">
+  <div className="col-text">
+    <p className="inter">Subtítulo en Inter</p>
+    <h2 className="dela">Título en Dela Gothic One</h2>
+    <p className="inter">Cuerpo de texto en Inter</p>
+  </div>
+  <div className="col-image">
+    <img src="/images/econdmainphoto.png" alt="Descripción foto" />
+  </div>
+</section>

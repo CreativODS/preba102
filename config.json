@@ -1,7 +1,11 @@
 {
   "showSidebar": true
 }
-
+{
+  "nav": {
+    "title": "My Digital Garden"
+  }
+}
 {
   "nav": {
     "links": [

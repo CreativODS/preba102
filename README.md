@@ -4,7 +4,7 @@ date: "2025-12-02"
 ---
 
 <!-- Importamos componentes si los necesitas -->
-import "./styles/home.css"
+import ".home.css"
 
 <!-- Hero full-width con imagen de fondo -->
 <div className="hero">

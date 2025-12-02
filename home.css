@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Dela+Gothic+One&display=swap');
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.dela {
+  font-family: 'Dela Gothic One', cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  color: #000;
+}
+
+.dela {
+  font-family: 'Dela Gothic One', cursive;
+}
+
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh; /* altura de pantalla completa */
+  background: url('/images/heromaiphoto.png') center/cover no-repeat;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 0 1rem;
+}
+
+.columns.two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.col-text {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+.col-image {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+.col-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.spacer.large {
+  height: 4rem;
+}
+
+.spacer.medium {
+  height: 2rem;
+}
+
+.center-text {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.highlight {
+  color: #F90068;
+}
+
+.columns.custom-grid {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.grid-left {
+  grid-column: 1 / span 1;
+}
+
+.grid-right {
+  grid-column: 2 / span 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.grid-right .cell {
+  background: #f9f9f9; /* o el fondo que decidas */
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.columns.custom-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 768px) {
+  .columns.two-columns,
+  .columns.custom-grid {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+}

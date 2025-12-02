@@ -1,22 +1,3 @@
 {
   "showSidebar": true
 }
-{
-  "nav": {
-    "title": "My Digital Garden"
-  }
-}
-{
-  "nav": {
-    "links": [
-      {
-        "href": "/blog",
-        "name": "Blog"
-      },
-      {
-        "href": "/we are",
-        "name": "we are"
-      }
-    ]
-  }
-}
